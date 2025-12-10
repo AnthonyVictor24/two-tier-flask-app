@@ -23,7 +23,7 @@ services:
       start_period: 60s
 
   flask-app:
-    buid:
+    build:
       context: .
     container_name: flask-app
     ports:
